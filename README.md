@@ -1,8 +1,8 @@
 Steps:
 
-Clone into VS Code
-npm i
-npm run dev
+1. Clone into VS Code
+2. npm i
+3. npm run dev
 
 # React + Vite
 

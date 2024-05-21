@@ -1,7 +1,7 @@
 import React from 'react'; // Import React library
 import browser from '/images/browser.png'; // Import browser image
 
-// Browser functional component
+// Browser functional component 
 const Browser = () => {
     return (
         // Container
@@ -21,5 +21,6 @@ const Browser = () => {
         </div>
     )
 }
+
 
 export default Browser; // Export Browser component

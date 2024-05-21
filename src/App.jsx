@@ -9,7 +9,7 @@ import Wand from "./components/Wand";
 
 export default function App() {
   return (
-    <div className=" bg-black_primary">
+    <div className="bg-[#0e0f1aab]">
       <div className="2xl:px-[600px] xl:px-[135px] lg:px-[40px] md:px-[20px] px-[10px]">
         <Heading />
         <Hero />

@@ -8,8 +8,8 @@ const Footer = () => {
             <div className='md:order-1 order-2'>© 2024 Copyright. All rights reserved by QodeMatrix</div>
 
             {/* Links */}
-            <div className='flex gap-4 md:order-2 order-1 lg:place-content-start place-content-center'>
-                <div className='cursor-pointer'>Documentation</div>
+            <div className='flex gap-4 md:order-2 order-1 lg:place-content-start place-content-center pointer-events-auto'>
+                <div className='cursor-pointer '>Documentation</div>
                 <div className='cursor-pointer'>Support</div>
             </div>
         </div>

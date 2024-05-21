@@ -6,12 +6,35 @@
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MotionArt Effect</title>
-  <meta name="MotionArt Effect" content="A motion art effect is a captivating and interactive visual enhancement that involves the creation of simulated smoke or mist-like particles, which dynamically respond to the movement of the user's mouse cursor.">
+  <meta name="MotionArt Effect"
+    content="A motion art effect is a captivating and interactive visual enhancement that involves the creation of simulated smoke or mist-like particles, which dynamically respond to the movement of the user's mouse cursor.">
 </head>
 
+<style>
+  canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  #root {
+    width: 100%;
+    font-size: 80px;
+    color: yellow;
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+  }
+</style>
+
 <body>
+  <canvas></canvas>
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
+  <script src="./script.js"></script>
 </body>
 
 </html>
